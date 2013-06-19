@@ -13,8 +13,11 @@ ARGV.each do |p|
   files.each do |f|
     exif = EXIFR::JPEG.new(f)
     data[f] = { 
-      :geo => [exif.gps.longitude,exif.gps.latitude],
-      :size => [exif.width, exif.height]
+      :cameraMake => exif.make,
+      :cameraModel => exif.model,
+      :timestamp => exif.date_time_original,
+      :geoLocation => [exif.gps.longitude,exif.gps.latitude],
+      :imageSize => [exif.width, exif.height]
     }
   end
 end
