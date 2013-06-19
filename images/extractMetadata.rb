@@ -16,7 +16,7 @@ ARGV.each do |p|
       :cameraMake => exif.make,
       :cameraModel => exif.model,
       :timestamp => exif.date_time_original,
-      :geoLocation => [exif.gps.latitude,exif.gps.longitude],
+      :geoLocation => [exif.gps.longitude, exif.gps.latitude, exif.gps.altitude],
       :imageSize => [exif.width, exif.height]
     }
   end
