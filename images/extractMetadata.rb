@@ -16,10 +16,10 @@ ARGV.each do |p|
       :cameraMake => exif.make,
       :cameraModel => exif.model,
       :timestamp => exif.date_time_original,
-      :geoLocation => [exif.gps.longitude, exif.gps.latitude, exif.gps.altitude],
+      :geoLocation => exif.gps.nil? ? nil : [exif.gps.longitude, exif.gps.latitude, exif.gps.altitude],
       :imageSize => [exif.width, exif.height]
     }
   end
 end
-print data.to_json
+print JSON.pretty_generate(data)
 
