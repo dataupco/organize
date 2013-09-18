@@ -1,3 +1,10 @@
+# file:    extractMetadata.rb
+# purpose: extract metadata from images
+# usage:   extractMetadata.rb <imageFile> <folderOfImages> 
+# input:   space separated list of files and folders on the command line
+# output:  json to stdout with filename as keys to a hash of the following properties
+#          [ cameraMake, cameraModel, timestamp, geoLocation, imageSize ]
+
 require 'exifr'
 require 'json'
 

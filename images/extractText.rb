@@ -1,3 +1,9 @@
+# file:    extractText.rb
+# purpose: extract text from images
+# usage:   extractText.rb <imageFile> <folderOfImages>
+# input:   space separated list of files and folders on the command line
+# output:  json to stdout with file name as keys to text content
+
 # NOTICE: Windows Dependent
 #####################################################################################################
 # Helpful Link:  http://rubyonwindows.blogspot.com/2009/08/ocr-converting-images-to-text-with-modi.html
