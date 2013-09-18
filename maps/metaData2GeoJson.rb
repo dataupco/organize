@@ -1,6 +1,6 @@
-# file:    metadata2GeoJson.rb
+# file:    metaData2GeoJson.rb
 # purpose: transform image metadata into geojson
-# usage:   metadata2GeoJson.rb <jsonFile> <folderOfJsonFiles>
+# usage:   metaData2GeoJson.rb <jsonFile> <folderOfJsonFiles>
 # input:   space separated list of files and folders on the command line
 # output:  geojson to stdout
 
