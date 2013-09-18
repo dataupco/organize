@@ -6,4 +6,4 @@ Images
  * images/extractText.rb     - extracts text from images
 
 Maps
- * maps/metaData2GeoJson.rb  - creates geojson from metadata
+ * maps/metaData2GeoJson.rb  - creates geojson from image metadata
