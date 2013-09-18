@@ -1,6 +1,9 @@
-Organization tools:
+Organizationl Tools
+=======================
 
-images/extractMetadata.rb - extracts metadata from images
-images/extractText.rb     - extracts text from images
+Images
+ * images/extractMetadata.rb - extracts metadata from images
+ * images/extractText.rb     - extracts text from images
 
-maps/metaData2GeoJson.rb  - creates geojson from metadata
+Maps
+ * maps/metaData2GeoJson.rb  - creates geojson from metadata
