@@ -1,5 +1,5 @@
-Organizationl Tools
-=======================
+Data Organization Tools
+=========================
 
 Images
  * images/extractMetadata.rb - extracts metadata from images
